@@ -3,6 +3,14 @@
     {
       "id": 3,
       "quantity": 1
+    },
+    {
+      "id": 2,
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "quantity": 1
     }
   ],
   "items": [
@@ -28,7 +36,7 @@
       "id": 2,
       "title": "Winter Twilight",
       "color": "illustr",
-      "price": 2.20,
+      "price": 2.2,
       "imageSrc": "https://f8n-ipfs-production.imgix.net/QmRkZCFJdkx8oYJAtz3LpsDcbDrgC6nytjPyBsiPVHnGTa/nft.jpg?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680",
       "brief": "Created by @chrisalliel",
       "description": [
@@ -49,7 +57,8 @@
         {
           "type": "text",
           "text": "Internet treating artists, with their thumbs and opinions trying to control the artist,their creativity,their choices....... lets be free art is about freedom\n\nInspired from Pollice Verso, an 1872 painting by Jean-Léon Gérôme\ncreated by - Rishiraj singh Sep. 2021\nsize -5209x3499"
-        }]
+        }
+      ]
     },
     {
       "id": 4,
@@ -61,7 +70,7 @@
       "description": [
         {
           "type": "text",
-          "text": "We are proud to introduce many of the world’s most admired works of art, but with a green, slimy twist! In this collection, our favorite pond-dweller Pepe the Frog appears framed in amphibious, golden splendor.\n\nWhat has startled our dear friend Pepe so?\n\nTake a look, and experience this beauty fit for the walls of a museum, or even just the walls of your lily pad.\n\nPepe's Scream by Soliiiart\nfoundation.app/@soliiiart\n\nInspired by \"The Scream \" by Edvard Munch's masterpiece (1893)\n\nAnd in the immortal words of \uD83D\uDC38 : “ribbit.”"
+          "text": "We are proud to introduce many of the world’s most admired works of art, but with a green, slimy twist! In this collection, our favorite pond-dweller Pepe the Frog appears framed in amphibious, golden splendor.\n\nWhat has startled our dear friend Pepe so?\n\nTake a look, and experience this beauty fit for the walls of a museum, or even just the walls of your lily pad.\n\nPepe's Scream by Soliiiart\nfoundation.app/@soliiiart\n\nInspired by \"The Scream \" by Edvard Munch's masterpiece (1893)\n\nAnd in the immortal words of 🐸 : “ribbit.”"
         }
       ]
     },
@@ -89,7 +98,8 @@
       "description": [
         {
           "type": "text",
-          "text": "The Jedi in this picture is my daughter.\nShe apparently wants to become a Jedi knight. I'm not a Jedi, so I can't teach her anything, but she can already handle the Force.\nThis is the shrine in Odaiba that such Jedi knights are said to visit first.\n\nMay the Force be with you."}
+          "text": "The Jedi in this picture is my daughter.\nShe apparently wants to become a Jedi knight. I'm not a Jedi, so I can't teach her anything, but she can already handle the Force.\nThis is the shrine in Odaiba that such Jedi knights are said to visit first.\n\nMay the Force be with you."
+        }
       ]
     },
     {
@@ -103,7 +113,8 @@
         {
           "type": "text",
           "text": "This picture is of a temple in Taipei.\nThere are many temples, shrines , and other faiths and religions in this world.\nIt is up to each person to decide what they believe in and what they wish for. God, Buddha, or a guru hears and understands the wishes and desires of such people. Have you ever thought about the feelings of such gods and buddhas ?\nThere are so many people, and I have to listen to everyone. It's tough.\nMay God and Buddha rest in peace.\nIn Japan, there is almost no religion. My family is Buddhist , but I've almost never heard of that enlightenment. Personally , I love Mary."
-        }]
+        }
+      ]
     },
     {
       "id": 8,
@@ -158,7 +169,6 @@
         {
           "type": "text",
           "text": "One autumn night.The child awoke to the intense light shining through the curtains.\nHer parents haven't returned home yet.\nThen who is it?\nThe mysterious vibrations and resonances that come in little by little.\nThe child left the room with his half-asleep body and it stood in the living room."
-
         }
       ]
     }

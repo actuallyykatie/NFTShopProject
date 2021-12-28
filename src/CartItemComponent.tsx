@@ -34,13 +34,13 @@ export function CartItemComponent(props: CartItemComponentProps) {
     }, []);
 
     return (
-        <Card className="cart-item">
+        <Card className="shadow-sm cart-item">
             <Row>
-                <Col xs={4}>
+                <Col xs={4} style={{ width: 'auto', marginTop:'3px 0', marginBottom:'3px 0'}}>
                     <img className="img-fluid rounded-start" src={state.item?.imageSrc}/>
                 </Col>
-                <Col xs={8}>
-                    <Card.Body>
+                <Col xs={4}>
+                    <Card.Body style={{ width: '15rem', marginTop:'3px 0', marginBottom:'3px 0'}}>
                         <Card.Title>{state.item?.title}</Card.Title>
                         <Card.Text>
                             <div>
@@ -57,7 +57,7 @@ export function CartItemComponent(props: CartItemComponentProps) {
                                 // Price: ${itemPrice}
                                 }
 
-                                Price: ${props.cartItem.quantity * (state.item?.price ?? 0)}
+                                Price: {props.cartItem.quantity * (state.item?.price ?? 0)} ETH
                             </div>
                         </Card.Text>
                     </Card.Body>

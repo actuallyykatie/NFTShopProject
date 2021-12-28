@@ -74,13 +74,13 @@ export function CartComponent() {
     return (
         <Container>
             {/*Полная цена*/}
-            <h2>Full price is ${state.fullPrice}</h2>
-            <Row>
+            <h2>Full price is {state.fullPrice} ETH</h2>
+            <Row >
                 {/*Отрисовываем каждый элемент в корзине*/}
                 {
                     state.cartItems.map((item) => {
                         return (
-                            <Col xs={3}>
+                            <Col xs={3} style={{marginTop:10, marginLeft: 0}}>
                                 <CartItemComponent cartItem={item}/>
                             </Col>
                         );
@@ -88,7 +88,11 @@ export function CartComponent() {
                 }
             </Row>
             {/*Просто кнопка-заглушка*/}
-            <Button variant="success">Proceed to checkout</Button>
+            <div style={{marginTop:20}}>
+                <Button variant="dark" >
+                   Proceed to checkout
+                </Button>
+            </div>
         </Container>
     );
 }

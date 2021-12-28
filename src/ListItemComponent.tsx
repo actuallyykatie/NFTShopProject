@@ -27,7 +27,7 @@ export function ListItemComponent(props: ListItemComponentProps) {
     }
 
     return (
-        <Card className={"list-item"} style={{ width: '15rem', height: '24rem', marginTop:'3px 0', marginBottom:'3px 0'}}>
+        <Card className={"shadow-sm list-item"} style={{ width: '15rem', height: '23rem', marginTop:'3px 0', marginBottom:'3px 0'}}>
 
             <Card.Img style={{height: 200, width:"auto"}} variant="top" src={item.imageSrc} />
 

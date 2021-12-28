@@ -20,14 +20,14 @@ export function App() {
             {/*Часть, которая рисуется всегда -- хедер страницы*/}
             <Navbar bg="dark" variant="dark" style={{ marginBottom: 30 }}>
                 <Container>
-                    <Navbar.Brand href="/">NFT Gallery</Navbar.Brand>
+                    <Navbar.Brand href="/">NFT Art Gallery</Navbar.Brand>
                     <Nav className="me-auto">
                         {/*Ссылка перехода на главную страницу*/}
                         <Nav.Link href="/">Explore</Nav.Link>
                     </Nav>
                     <Nav className="justify-content-end">
                         {/*Ссылка для перехода в корзину*/}
-                        <Link to={"/cart"}>
+                        <Link to={"/cart"} style={{ marginTop: 2 }}>
                             {/*Кнопка корзины*/}
                             <Button variant={"light"}>
                                 {/*Иконка с корзиной*/}

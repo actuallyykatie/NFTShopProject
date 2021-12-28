@@ -45,17 +45,16 @@
     },
     {
       "id": 3,
-      "title": "Dolor",
-      "color": "blue",
-      "price": 500,
-      "imageSrc": "https://klkfavorit.ru/wp-content/uploads/5/4/e/54ef2ae25328982d8ec84de9bb018bde.jpeg",
-      "brief": "Lorem ipsum dolor sit amet",
+      "title": "Art Police Verso",
+      "color": "illustr",
+      "price": 1,
+      "imageSrc": "https://f8n-ipfs-production.imgix.net/QmbiuD2515Lm61tetC7Y2TBGWBw5tZsUquyK32euVvfDDK/nft.jpg?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680",
+      "brief": "Created by @rishirajsinghs",
       "description": [
         {
           "type": "text",
-          "text": ""
-        }
-      ]
+          "text": "Internet treating artists, with their thumbs and opinions trying to control the artist,their creativity,their choices....... lets be free art is about freedom\n\nInspired from Pollice Verso, an 1872 painting by Jean-Léon Gérôme\ncreated by - Rishiraj singh Sep. 2021\nsize -5209x3499"
+        }]
     },
     {
       "id": 4,
@@ -163,22 +162,10 @@
       "description": [
         {
           "type": "text",
-          "text": "One autumn night.\nThe child awoke to the intense light shining through the curtains.\nHer parents haven't returned home yet.\nThen who is it?\nThe mysterious vibrations and resonances that come in little by little.\nThe child left the room with his half-asleep body and it stood in the living room."
+          "text": "One autumn night.The child awoke to the intense light shining through the curtains.\nHer parents haven't returned home yet.\nThen who is it?\nThe mysterious vibrations and resonances that come in little by little.\nThe child left the room with his half-asleep body and it stood in the living room."
+
         }
       ]
-    },
-    {
-      "id": 12,
-      "title": "Art Police Verso",
-      "color": "illustr",
-      "price": 1,
-      "imageSrc": "https://f8n-ipfs-production.imgix.net/QmbiuD2515Lm61tetC7Y2TBGWBw5tZsUquyK32euVvfDDK/nft.jpg?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680",
-      "brief": "Created by @rishirajsinghs",
-      "description": [
-        {
-          "type": "text",
-          "text": "Internet treating artists, with their thumbs and opinions trying to control the artist,their creativity,their choices....... lets be free art is about freedom\n\nInspired from Pollice Verso, an 1872 painting by Jean-Léon Gérôme\ncreated by - Rishiraj singh Sep. 2021\nsize -5209x3499"
-        }]
     }
   ],
   "comments": [

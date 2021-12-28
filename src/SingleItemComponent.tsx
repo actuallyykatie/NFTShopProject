@@ -146,16 +146,19 @@ export function SingleItemComponent() {
         return (
             <Container>
                 <Row>
-                    <Col>
+                    <Col >
                         <img className={"rounded"} style={{height:'100%',width:'500px'}}
                              src={item.imageSrc} />
                     </Col>
-                    <Col>
+                    <Col style={{ marginLeft: 5 }} >
                         <h1>{item.title}</h1>
                         <p>Brief: {item.brief}</p>
                         <h5>Description</h5>
                         {renderDescriptions(item.description)}
-                        <span><b>{item.price} ETH</b></span> <Button onClick={() => addToCart()} variant={"dark"}>Add to cart</Button>
+                        <p><b>{item.price} ETH</b></p>
+                        <Button onClick={() => addToCart()} variant={"dark"}>
+                            Add to cart
+                        </Button>
                     </Col>
                 </Row>
 

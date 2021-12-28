@@ -68,8 +68,11 @@ export function MainComponent() {
               {
                   items.map((item: ShopItem) => {
                       return (
-                          <Col xs={3} key={item.id}>
-                              <ListItemComponent item={item}/>
+
+                          <Col xs={3} key={item.id} style={{ marginBottom: 25}}>
+
+                                  <ListItemComponent item={item}/>
+
                           </Col>
                       )
                   })

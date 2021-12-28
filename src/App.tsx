@@ -20,10 +20,10 @@ export function App() {
             {/*Часть, которая рисуется всегда -- хедер страницы*/}
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="/">Dog Shop</Navbar.Brand>
+                    <Navbar.Brand href="/">NFT Gallery</Navbar.Brand>
                     <Nav className="me-auto">
                         {/*Ссылка перехода на главную страницу*/}
-                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="/">Explore</Nav.Link>
                     </Nav>
                     <Nav className="justify-content-end">
                         {/*Ссылка для перехода в корзину*/}
@@ -31,7 +31,7 @@ export function App() {
                             {/*Кнопка корзины*/}
                             <Button variant={"primary"}>
                                 {/*Иконка с корзиной*/}
-                                <FontAwesomeIcon icon={faOpencart} />
+                                <FontAwesomeIcon icon={faShoppingCart} />
                             </Button>
                         </Link>
                     </Nav>

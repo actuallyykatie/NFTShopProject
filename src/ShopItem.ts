@@ -4,9 +4,11 @@
 import {Description} from "./Descriptions";
 
 export enum ItemColor {
-    red = "Red",
-    blue = "Blue",
-    black = "Black"
+    future = "future",
+    illustr = "illustration",
+    other = "other",
+    photography = "photography",
+
 }
 
 export class ShopItem {
@@ -36,7 +38,7 @@ export class ShopItem {
     public brief: string;
 
     /**
-     * Цвет.
+     * Тег.
      */
     public color: ItemColor;
 

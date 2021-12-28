@@ -1,40 +1,28 @@
 {
-  "cart": [],
+  "cart": [
+    {
+      "id": 3,
+      "quantity": 1
+    }
+  ],
   "items": [
     {
       "id": 1,
-      "title": "Foo bar",
-      "price": 100,
-      "color": "red",
-      "imageSrc": "https://farm8.staticflickr.com/7062/7053816915_8a0a65c3c7_b.jpg",
-      "brief": "Lorem ipsum dolor sit amet",
+      "title": "TRANSITION: Nature-Human-Technology—Electricity",
+      "price": 16,
+      "color": "future",
+      "imageSrc": "https://f8n-ipfs-production.imgix.net/Qmewuz6KNWyBQR5i6sVwJcdyQWFa6p6L4vdKqW5iFM71Bn/nft.jpg?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680",
+      "brief": "Created by @pokraslampas",
       "description": [
         {
           "type": "text",
-          "text": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
-        },
-        {
-          "type": "checkbox",
-          "name": "check1",
-          "variant": [
-            "asdlasldlsa",
-            "aspqqp",
-            "qweewe"
-          ]
+          "text": "Projection mapping of the Calligrafuturism artwork on the Chirkei Hydroelectric Power Station on the river Sulak near the Dubki settlement, Kazbekovsky district, Dagestan.\n\nThe most powerful hydroelectric power plant in the North Caucasus, the lights of which were specially turned off for experimental photo project by Pokras Lampas.\n\nProject dedicated to the balance between Nature and Anthropogenic human activity, Hydroelectric Power and Data Mining technology, Creation and Consumption."
         },
         {
           "type": "image",
-          "imageSrc": "https://klkfavorit.ru/wp-content/uploads/2/9/4/29462647f763bf058bf93f4177501696.jpg"
+          "imageSrc": "https://f8n-production.s3.amazonaws.com/creators/profile/b6iyd854h-png-nrybkx.png"
         },
-        {
-          "type": "checkbox",
-          "name": "check2",
-          "variant": [
-            "Test",
-            "Foo",
-            "Bar"
-          ]
-        },
+
         {
           "type": "text",
           "text": "dasdasd asljdaslj djasnd kjahskd as"
@@ -43,11 +31,17 @@
     },
     {
       "id": 2,
-      "title": "Lorem ipsum",
-      "color": "red",
-      "price": 123,
-      "imageSrc": "https://sobakainfo.ru/wp-content/uploads/2016/11/6-14.jpg",
-      "brief": "Lorem ipsum dolor sit amet"
+      "title": "Winter Twilight",
+      "color": "illustr",
+      "price": 2.20,
+      "imageSrc": "https://f8n-ipfs-production.imgix.net/QmRkZCFJdkx8oYJAtz3LpsDcbDrgC6nytjPyBsiPVHnGTa/nft.jpg?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680",
+      "brief": "Created by @chrisalliel",
+      "description": [
+        {
+          "type": "text",
+          "text": "As twilight dims the day\nthe scent of snow fill the air\nsprinkle joy in this magical seasons for\ncelebration – Winter Twilight\n\nDigital drawing/ 2732pxX2048px"
+        }
+      ]
     },
     {
       "id": 3,
@@ -55,23 +49,54 @@
       "color": "blue",
       "price": 500,
       "imageSrc": "https://klkfavorit.ru/wp-content/uploads/5/4/e/54ef2ae25328982d8ec84de9bb018bde.jpeg",
-      "brief": "Lorem ipsum dolor sit amet"
+      "brief": "Lorem ipsum dolor sit amet",
+      "description": [
+        {
+          "type": "text",
+          "text": ""
+        }
+      ]
     },
     {
       "id": 4,
-      "title": "Sit",
-      "color": "black",
-      "price": 600,
-      "imageSrc": "https://lapkins.ru/upload/uf/55b/55b9fa60a5dbc4abe05fa7abe6564d6b.jpg",
-      "brief": "Lorem ipsum dolor sit amet"
+      "title": "Pepe's Scream #2",
+      "color": "other",
+      "price": 0.82,
+      "imageSrc": "https://assets.foundation.app/E1/D8/Qmc23SnYamAoBD2EoS1Zj6z5FFrzHe9SjW3NBrmQ8jE1D8/nft.jpg",
+      "brief": "Created by @huntlancer",
+      "description": [
+        {
+          "type": "text",
+          "text": "We are proud to introduce many of the world’s most admired works of art, but with a green, slimy twist! In this collection, our favorite pond-dweller Pepe the Frog appears framed in amphibious, golden splendor.\n\nWhat has startled our dear friend Pepe so?\n\nTake a look, and experience this beauty fit for the walls of a museum, or even just the walls of your lily pad.\n\nPepe's Scream by Soliiiart\nfoundation.app/@soliiiart\n\nInspired by \"The Scream \" by Edvard Munch's masterpiece (1893)\n\nAnd in the immortal words of \uD83D\uDC38 : “ribbit.”"
+        }
+      ]
     },
     {
       "id": 5,
-      "title": "Amet",
-      "color": "black",
-      "price": 1000,
-      "imageSrc": "https://klkfavorit.ru/wp-content/uploads/2/9/4/29462647f763bf058bf93f4177501696.jpg",
-      "brief": "Lorem ipsum dolor sit amet"
+      "title": "Morning In Chureito",
+      "color": "photography",
+      "price": 4.4,
+      "imageSrc": "https://f8n-ipfs-production.imgix.net/QmRaYooQbfaJ1bWSF1ZibXWMjQcz3gx1h4BC5a27DNB2BP/nft.jpg?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680",
+      "brief": "Created by @rkrkrk",
+      "description": [
+        {
+          "type": "text",
+          "text": "This place is very popular in Japan as a place where you can see Mt.Fuji. It is also highly supported and known by many people both in Japan and abroad. Mt.Fuji, a symbol of Japan, and traditional Japanese architecture can be seen together."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "A Little Jedi In Tokyo",
+      "color": "photography",
+      "price": 5.005,
+      "imageSrc": "https://f8n-ipfs-production.imgix.net/QmNbdjxcSAaX3Y6CH7niGA79z8DHkBvWc3UyNsVxFb2XoK/nft.jpg?q=80&auto=format%2Ccompress&cs=srgb&max-w=1680&max-h=1680",
+      "brief": "Created by @rkrkrk",
+      "description": [
+        {
+          "type": "text",
+          "text": "The Jedi in this picture is my daughter.\nShe apparently wants to become a Jedi knight. I'm not a Jedi, so I can't teach her anything, but she can already handle the Force.\nThis is the shrine in Odaiba that such Jedi knights are said to visit first.\n\nMay the Force be with you."}
+      ]
     }
   ],
   "comments": [
@@ -82,18 +107,13 @@
     },
     {
       "shopItemId": 2,
-      "text": "sdadsasd",
+      "text": "Amazing work!",
       "id": 2
     },
     {
       "shopItemId": 2,
-      "text": "sdkfmsdlkf",
+      "text": "wanna buy",
       "id": 3
-    },
-    {
-      "shopItemId": 2,
-      "text": "asdasd",
-      "id": 4
     },
     {
       "shopItemId": 2,
@@ -101,23 +121,23 @@
       "id": 5
     },
     {
-      "shopItemId": 2,
-      "text": "34123123123asdasd",
+      "shopItemId": 3,
+      "text": "nice work",
       "id": 6
     },
     {
       "shopItemId": 2,
-      "text": "slkdjalksdl",
+      "text": "how can i buy it?",
       "id": 7
     },
     {
-      "shopItemId": 3,
-      "text": "asdasdmaslkd",
+      "shopItemId": 1,
+      "text": "is it sold?",
       "id": 8
     },
     {
       "shopItemId": 3,
-      "text": "asdad;q3le23",
+      "text": "wow",
       "id": 9
     }
   ]

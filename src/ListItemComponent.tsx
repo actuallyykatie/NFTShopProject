@@ -27,19 +27,29 @@ export function ListItemComponent(props: ListItemComponentProps) {
     }
 
     return (
-        <Card className={"list-item"} style={{ width: '18rem' }}>
-            <Card.Img style={{height: 242}} variant="top" src={item.imageSrc} />
-            <Card.Body>
+        <Card className={"list-item"} style={{ width: '15rem', height: '24rem', marginTop:'3px 0', marginBottom:'3px 0'}}>
+            <Card.Img style={{height: 200}} variant="top" src={item.imageSrc} />
+            <Card.Body style={{ height: 40, marginTop:'3px 0', marginBottom:'0px'}}>
                 <Card.Title>
-                    <Link to={"/item/" + item.id}>
-                        {item.title}
-                    </Link>
+                    <a href={"/item/" + item.id} className="link-dark">
+                       {item.title.substring(0, 35) } {item.title.length >= 20 && `...` }
+                    </a>
                 </Card.Title>
-                <Card.Text>
-                    {item.brief}
-                </Card.Text>
-                <span><b>${item.price}</b></span>
-                <div className="add-to-cart"><Button onClick={() => addToCart(item)} variant="success">Add to cart</Button></div>
+
+                <h6 className="card-subtitle mb-2 text-muted">{item.brief}</h6>
+            </Card.Body>
+            <Card.Body style = {{height: 40}}>
+                <Card.Footer style = {{background: '#ffffff'}}>
+                                <div className="d-flex example-parent">
+                                    <div className="p-2 col-example"><b>{item.price} ETH </b></div>
+                                    <div className="p-2 col-example"></div>
+                                    <div className="ml-auto p-2 col-example">
+                                        <Button onClick={() => addToCart(item)} variant="dark" size={"sm"} style={{float: 'right'}}>
+                                            Add
+                                        </Button>
+                                    </div>
+                                </div>
+                </Card.Footer>
             </Card.Body>
         </Card>
     );

@@ -162,13 +162,16 @@ export function SingleItemComponent() {
                     </Col>
                 </Row>
 
-                <div className="comment-block ">
+                <div className="comment-block " style={{ marginTop: 30 }}>
+                    <h4  style={{ marginBottom: 20 }}>Comments</h4>
                     {
                         state.comments.map(comment => {
                             return (
                                 <Row>
                                     <Col>
-                                        <p className="comment">{comment.text}</p>
+                                        <div className="alert alert-light shadow-sm ">
+                                            {comment.text}
+                                        </div>
                                     </Col>
                                 </Row>
                             )
@@ -177,13 +180,18 @@ export function SingleItemComponent() {
                 </div>
 
                 <Row>
-                    <Col>
-                        <textarea className="comment-input" ref={textAreaRef}/>
-                    </Col>
+                    <Form>
+                        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                            <Form.Label style={{marginTop:10}}>
+                                <h6>Your thoughts?</h6>
+                            </Form.Label>
+                            <Form.Control as="textarea" rows={3} />
+                        </Form.Group>
+                    </Form>
                 </Row>
                 <Row>
                     <Col>
-                        <Button onClick={() => submitComment()}>Submit</Button>
+                        <Button onClick={() => submitComment()} variant={"dark"}>Submit</Button>
                     </Col>
                 </Row>
             </Container>

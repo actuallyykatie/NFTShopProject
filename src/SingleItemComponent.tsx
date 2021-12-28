@@ -147,7 +147,8 @@ export function SingleItemComponent() {
             <Container>
                 <Row>
                     <Col>
-                        <img className={"item-image"} src={item.imageSrc}/>
+                        <img className={"rounded"} style={{height:'100%',width:'500px'}}
+                             src={item.imageSrc} />
                     </Col>
                     <Col>
                         <h1>{item.title}</h1>

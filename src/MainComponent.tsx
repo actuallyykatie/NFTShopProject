@@ -46,7 +46,7 @@ export function MainComponent() {
     return (
       <Container>
           <Row>
-              <Col xs={3}>
+              <Col xs={2} style={{ marginTop: -15 }}>
                   <Form.Select defaultValue={""} className="color-select" onChange={event => onColorInputChange(event)}>
                       {
                           Object.keys(ItemColor).map(color => {
@@ -64,7 +64,7 @@ export function MainComponent() {
                   </Form.Select>
               </Col>
           </Row>
-          <Row>
+          <Row style={{ marginTop: 15 }}>
               {
                   items.map((item: ShopItem) => {
                       return (

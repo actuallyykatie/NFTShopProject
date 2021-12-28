@@ -28,15 +28,19 @@ export function ListItemComponent(props: ListItemComponentProps) {
 
     return (
         <Card className={"list-item"} style={{ width: '15rem', height: '24rem', marginTop:'3px 0', marginBottom:'3px 0'}}>
-            <Card.Img style={{height: 200}} variant="top" src={item.imageSrc} />
+
+            <Card.Img style={{height: 200, width:"auto"}} variant="top" src={item.imageSrc} />
+
             <Card.Body style={{ height: 40, marginTop:'3px 0', marginBottom:'0px'}}>
                 <Card.Title>
                     <a href={"/item/" + item.id} className="link-dark">
-                       {item.title.substring(0, 35) } {item.title.length >= 20 && `...` }
+                       {item.title.substring(0, 30) }{item.title.length >= 23 && `...` }
                     </a>
                 </Card.Title>
 
-                <h6 className="card-subtitle mb-2 text-muted">{item.brief}</h6>
+                <h6 className="card-subtitle mb-2 text-muted">
+                    {item.brief.substring(0, 20) }{item.brief.length >= 20 && `...` }
+                </h6>
             </Card.Body>
             <Card.Body style = {{height: 40}}>
                 <Card.Footer style = {{background: '#ffffff'}}>

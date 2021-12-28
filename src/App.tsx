@@ -18,7 +18,7 @@ export function App() {
         // В корне приложения -- роутер, который "отрисовывает" нужную компоненту в зависимости от URL
         <BrowserRouter>
             {/*Часть, которая рисуется всегда -- хедер страницы*/}
-            <Navbar bg="dark" variant="dark">
+            <Navbar bg="dark" variant="dark" style={{ marginBottom: 30 }}>
                 <Container>
                     <Navbar.Brand href="/">NFT Gallery</Navbar.Brand>
                     <Nav className="me-auto">
@@ -29,7 +29,7 @@ export function App() {
                         {/*Ссылка для перехода в корзину*/}
                         <Link to={"/cart"}>
                             {/*Кнопка корзины*/}
-                            <Button variant={"primary"}>
+                            <Button variant={"light"}>
                                 {/*Иконка с корзиной*/}
                                 <FontAwesomeIcon icon={faShoppingCart} />
                             </Button>
